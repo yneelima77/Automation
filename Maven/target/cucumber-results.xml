@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="5" tests="5" time="0">
+<testcase classname="Amazon search" name="Verifying Amazon search functionality" time="0">
+<skipped><![CDATA[Given user is on Amazon search page.........................................undefined
+When user enters "dell" in search bar.......................................undefined
+And user clicks on the search button........................................undefined
+Then user validates the product search result...............................undefined
+And user close the browser..................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Amazon search" name="Verifying Amazon search functionality 2" time="0">
+<skipped><![CDATA[Given user is on Amazon search page.........................................undefined
+When user enters "samsung" in search bar....................................undefined
+And user clicks on the search button........................................undefined
+Then user validates the product search result...............................undefined
+And user close the browser..................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Amazon search" name="Verifying Amazon search functionality 3" time="0">
+<skipped><![CDATA[Given user is on Amazon search page.........................................undefined
+When user enters "apple" in search bar......................................undefined
+And user clicks on the search button........................................undefined
+Then user validates the product search result...............................undefined
+And user close the browser..................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Amazon search" name="Verifying Amazon search functionality 4" time="0">
+<skipped><![CDATA[Given user is on Amazon search page.........................................undefined
+When user enters "LG" in search bar.........................................undefined
+And user clicks on the search button........................................undefined
+Then user validates the product search result...............................undefined
+And user close the browser..................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Amazon search" name="Verifying Amazon sortBy functionality" time="0">
+<skipped><![CDATA[Given user is on Amazon search page.........................................undefined
+When user selects Price:Low to High from sort Dropdown......................undefined
+Then user validates the sortBy functionality results by checking the products price order.undefined
+]]></skipped>
+</testcase>
+</testsuite>

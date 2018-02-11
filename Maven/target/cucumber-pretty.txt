@@ -1,0 +1,61 @@
+@tag
+Feature: Amazon search
+  I want to verify Amazon search functionality 
+  with multiple inputs
+
+  @tag1
+  Scenario Outline: Verifying Amazon search functionality [90m# Amazon.feature:10[0m
+    [36mWhen [0m[36muser enters "<products>" in search bar[0m
+    [36mAnd [0m[36muser clicks on the search button[0m
+    [36mThen [0m[36muser validates the product search result[0m
+    [36mAnd [0m[36muser close the browser[0m
+
+    Examples: 
+
+  Background: (common step)             [90m# Amazon.feature:6[0m
+    [33mGiven [0m[33muser is on Amazon search page[0m
+
+  @tag @tag1
+  Scenario Outline: Verifying Amazon search functionality [90m# Amazon.feature:18[0m
+    [33mWhen [0m[33muser enters "dell" in search bar[0m
+    [33mAnd [0m[33muser clicks on the search button[0m
+    [33mThen [0m[33muser validates the product search result[0m
+    [33mAnd [0m[33muser close the browser[0m
+
+  Background: (common step)             [90m# Amazon.feature:6[0m
+    [33mGiven [0m[33muser is on Amazon search page[0m
+
+  @tag @tag1
+  Scenario Outline: Verifying Amazon search functionality [90m# Amazon.feature:19[0m
+    [33mWhen [0m[33muser enters "samsung" in search bar[0m
+    [33mAnd [0m[33muser clicks on the search button[0m
+    [33mThen [0m[33muser validates the product search result[0m
+    [33mAnd [0m[33muser close the browser[0m
+
+  Background: (common step)             [90m# Amazon.feature:6[0m
+    [33mGiven [0m[33muser is on Amazon search page[0m
+
+  @tag @tag1
+  Scenario Outline: Verifying Amazon search functionality [90m# Amazon.feature:20[0m
+    [33mWhen [0m[33muser enters "apple" in search bar[0m
+    [33mAnd [0m[33muser clicks on the search button[0m
+    [33mThen [0m[33muser validates the product search result[0m
+    [33mAnd [0m[33muser close the browser[0m
+
+  Background: (common step)             [90m# Amazon.feature:6[0m
+    [33mGiven [0m[33muser is on Amazon search page[0m
+
+  @tag @tag1
+  Scenario Outline: Verifying Amazon search functionality [90m# Amazon.feature:21[0m
+    [33mWhen [0m[33muser enters "LG" in search bar[0m
+    [33mAnd [0m[33muser clicks on the search button[0m
+    [33mThen [0m[33muser validates the product search result[0m
+    [33mAnd [0m[33muser close the browser[0m
+
+  Background: (common step)             [90m# Amazon.feature:6[0m
+    [33mGiven [0m[33muser is on Amazon search page[0m
+
+  @tag2
+  Scenario: Verifying Amazon sortBy functionality                                             [90m# Amazon.feature:24[0m
+    [33mWhen [0m[33muser selects Price:Low to High from sort Dropdown[0m
+    [33mThen [0m[33muser validates the sortBy functionality results by checking the products price order[0m
